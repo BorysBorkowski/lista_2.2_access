@@ -1,0 +1,74 @@
+zad.1
+
+SELECT
+    imie
+FROM
+    gracze
+WHERE
+    imie LIKE "?a*";
+
+zad.2
+
+SELECT
+    *
+FROM
+    gry
+WHERE
+    nazwa LIKE "*#?";
+
+zad.3
+
+SELECT
+    id_gry,
+    nazwa
+FROM
+    gry
+WHERE
+    nazwa LIKE "??";
+
+zad.4
+
+SELECT
+    *
+FROM
+    gry
+WHERE
+    nazwa LIKE "* ? *";
+
+zad.5
+
+SELECT
+    id_gracza
+FROM
+    gracze
+WHERE
+    id_gracza LIKE "1?1";
+
+zad.6
+
+SELECT
+    *
+FROM
+    gry
+WHERE
+    nazwa LIKE "???";
+
+zad.7
+
+SELECT
+    *
+FROM
+    gry
+WHERE
+    nazwa NOT LIKE "*?? ?? *";
+
+zad.8
+
+SELECT
+    *
+FROM
+    gry
+WHERE
+    nazwa NOT LIKE "*??????*"
+ORDER BY
+    nazwa ASC;
