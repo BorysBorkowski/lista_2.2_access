@@ -1,7 +1,7 @@
 zad.1
 
 SELECT
-    imie
+    *
 FROM
     gracze
 WHERE
@@ -51,7 +51,7 @@ SELECT
 FROM
     gry
 WHERE
-    nazwa LIKE "???";
+    nazwa LIKE "* ???*";
 
 zad.7
 
@@ -60,7 +60,7 @@ SELECT
 FROM
     gry
 WHERE
-    nazwa NOT LIKE "*?? ?? *";
+    nazwa NOT LIKE "* ?? ?? *";
 
 zad.8
 
